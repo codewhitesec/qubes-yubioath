@@ -6,6 +6,11 @@
 of [yubikey-manager](https://github.com/Yubico/yubikey-manager). It can be used to obtain OTP secrets from your *YubiKey*
 and integrates nicely with the isolation and security features of [Qubes OS](https://www.qubes-os.org/).
 
+<div align="center">
+  <img src="https://github.com/codewhitesec/qubes-yubioath/assets/49147108/6dbf4bf2-2fc3-4439-90aa-b1aecce006ea"/>
+</div>
+<br/>
+
 *qubes-yubioath* is inspired by [qubes-keepass](https://github.com/codewhitesec/qubes-keepass) which provides a *rofi* based
 frontend for the password manager [KeePassXC](https://keepassxc.org/).
 
