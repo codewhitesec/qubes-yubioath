@@ -52,11 +52,8 @@ def select_credential(creds: list[Credential], qube: str) -> Credential:
             if icon_path.is_file():
                 line += f'\x00icon\x1f{icon_path}'
 
-            else:
-                line = ' ' + line
-
         except KeyError:
-            line = ' ' + line
+            pass
 
         rofi_str += f'{line}\n'
 
