@@ -7,7 +7,7 @@ of [yubikey-manager](https://github.com/Yubico/yubikey-manager). It can be used 
 and integrates nicely with the isolation and security features of [Qubes OS](https://www.qubes-os.org/).
 
 <div align="center">
-  <img src="https://github.com/codewhitesec/qubes-yubioath/assets/49147108/6dbf4bf2-2fc3-4439-90aa-b1aecce006ea"/>
+  <img src="https://github.com/codewhitesec/qubes-yubioath/assets/49147108/f784940f-ca52-4753-8960-decef9f3285e"/>
 </div>
 <br/>
 
