@@ -2,6 +2,7 @@
 
 
 YUBI_QUBE='vault'
+VERSION='qubes-yubioath v1.0.2'
 
 
 function get_id() {

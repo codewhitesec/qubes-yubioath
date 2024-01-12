@@ -393,7 +393,7 @@ def main():
     '''
     Main method :)
     '''
-    parser = argparse.ArgumentParser(description='''qubes-yubioath v1.0.0 - A rofi based yubikey OTP frontend for Qubes''')
+    parser = argparse.ArgumentParser(description='''qubes-yubioath v1.0.2 - A rofi based yubikey OTP frontend for Qubes''')
     parser.add_argument('qube', help='qube to copy the credential to')
     parser.add_argument('--config', help='path to the configuration file')
     args = parser.parse_args()
