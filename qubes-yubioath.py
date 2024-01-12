@@ -43,11 +43,13 @@ def select_credential(creds: list[Credential], qube: str) -> Credential:
 
     for cred in creds:
 
-        line = cred.issuer.ljust(20)
+        issuer = cred.issuer or 'Unknown'
+
+        line = issuer.ljust(20)
         line += cred.name
 
         try:
-            icon_path = Path(Config.get(cred.issuer))
+            icon_path = Path(Config.get(issuer))
 
             if icon_path.is_file():
                 line += f'\x00icon\x1f{icon_path}'
@@ -391,7 +393,7 @@ def main():
     '''
     Main method :)
     '''
-    parser = argparse.ArgumentParser(description='''qubes-yubioath v1.0.0 - A rofi based yubikey OTP frontend for Qubes''')
+    parser = argparse.ArgumentParser(description='''qubes-yubioath v1.0.2 - A rofi based yubikey OTP frontend for Qubes''')
     parser.add_argument('qube', help='qube to copy the credential to')
     parser.add_argument('--config', help='path to the configuration file')
     args = parser.parse_args()
